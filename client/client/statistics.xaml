@@ -1,0 +1,15 @@
+﻿<Window x:Class="client.statistics"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:client"
+        mc:Ignorable="d"
+        Title="statistics" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="button_high_score" Content="high score" HorizontalAlignment="Left" Margin="242,164,0,0" VerticalAlignment="Top" Background="#FFF0F403" Width="280" Click="button_high_score_Click"/>
+        <Button x:Name="button_personal_stats" Content="pesonal stats" HorizontalAlignment="Left" Margin="242,247,0,0" VerticalAlignment="Top" Background="#FF03F4AC" Width="280" Click="button_personal_stats_Click"/>
+        <Button x:Name="backButton" Content="back" HorizontalAlignment="Left" Margin="99,312,0,0" VerticalAlignment="Top" Click="Button_Click" Background="#FF050D11" Foreground="#FFFFFEFE" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>

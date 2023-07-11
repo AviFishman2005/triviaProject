@@ -1,0 +1,18 @@
+﻿<Window x:Class="client.personalStatistics"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:client"
+        mc:Ignorable="d"
+        Title="personal statistics" Height="450" Width="800">
+    <Grid Background="Aqua">
+        <Button x:Name="backButton" Content="back" HorizontalAlignment="Left" Margin="99,312,0,0" VerticalAlignment="Top" Click="Button_Click" Background="#FF050D11" Foreground="#FFFFFEFE" Grid.ColumnSpan="2"/>
+
+        <Label x:Name="title" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="48" Content="User Statisitics" Foreground="Black" FontWeight="Bold" Margin="232,0,0,0" Height="72" Width="336"/>
+        <TextBlock FontWeight="Bold" x:Name="stats" HorizontalAlignment="Left" Margin="462,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="218"><Run Text="none"/><LineBreak/></TextBlock>
+        <TextBlock FontWeight="Bold" x:Name="stats_name" HorizontalAlignment="Left" Margin="254,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="218" Width="93"><Run Text="Username:"/><LineBreak/><Run/><LineBreak/><Run Text="High Score:"/><LineBreak/><Run/><LineBreak/><Run Text="games Played:"/><LineBreak/><Run/><LineBreak/><Run Text="Correct answers:"/><LineBreak/><Run/><LineBreak/><Run Text="Total answers:"/><LineBreak/><Run/><LineBreak/><Run Text="Average time:"/></TextBlock>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,56 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:client"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="client.Menu"
+        mc:Ignorable="d"
+       
+        Title="Menu" Height="450" Width="800">
+    <Grid>
+        <Grid Background="#FF99B4D1">
+            <Button x:Name="creatRoomB" Content="Create Room"  FontFamily="Elephant" HorizontalAlignment="Center" Margin="0,169,0,0" VerticalAlignment="Top" Click="creatRoomB_Click" Width="296">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFDFA85B" Offset="0.353"/>
+                        <GradientStop Color="#FFA79B28" Offset="0.153"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="JoinRoomB" Content="Join Room"  FontFamily="Elephant" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Click="Button_Click"  Width="296">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFDFA85B" Offset="0.353"/>
+                        <GradientStop Color="#FFA79B28" Offset="0.153"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="statsB" Content="Statistics"  FontFamily="Elephant" HorizontalAlignment="Center" Margin="0,267,0,0" VerticalAlignment="Top" Width="296" Click="statsB_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF8AABE8" Offset="0.153" />
+                        <GradientStop Color="#FFA2B4D7" Offset="0.531"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="statsA"  Content="High Scores"  FontFamily="Elephant" HorizontalAlignment="Center" Margin="0,316,0,0" VerticalAlignment="Top" Width="296" Click="statsA_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF8AABE8" Offset="0.153" />
+                        <GradientStop Color="#FFA2B4D7" Offset="0.531"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="signout_button"  FontFamily="Elephant"  Content="Signout" HorizontalAlignment="Center" Margin="0,365,0,0" VerticalAlignment="Top" Click="signout_button_Click" Width="296">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFE23030"/>
+                        <GradientStop Color="#FFFF9D9D" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <TextBlock x:Name="title" HorizontalAlignment="Left" Margin="49,57,0,0" TextWrapping="Wrap" Text="Menu:" VerticalAlignment="Top" FontFamily="Ravie" FontSize="17" RenderTransformOrigin="0.685,0.471"/>
+        </Grid>
+    </Grid>
+</Window>
